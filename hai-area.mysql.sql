@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Aug 21, 2015 at 08:37 PM
+-- Generation Time: Aug 21, 2015 at 10:42 PM
 -- Server version: 5.6.24
 -- PHP Version: 5.6.8
 
@@ -30,6 +30,7 @@ DROP TABLE IF EXISTS `hai-area`;
 CREATE TABLE IF NOT EXISTS `hai-area` (
   `id` int(11) NOT NULL,
   `name` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `isoname` varchar(16) COLLATE utf8mb4_unicode_ci NOT NULL,
   `attrib` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `coord` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `createID` int(11) NOT NULL,
